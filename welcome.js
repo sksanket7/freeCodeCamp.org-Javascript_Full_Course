@@ -26,3 +26,11 @@ console.log("\nshift() --> removes the first element");
 multiArray.shift();
 console.log(multiArray.length);
 
+//unshift(<element>) --> adds the element on the first position
+console.log("\nunshift(<element>) --> adds the element on the first position");
+multiArray.unshift("Unshifted element");
+console.log(multiArray.length);
+
+
+
+
